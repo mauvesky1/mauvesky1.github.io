@@ -173,6 +173,13 @@ section p {
     padding: 15px 40px;
   }
 }
+@media (max-width: 480px) {
+  .banner-area .banner-img {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
 
 /* about area */
 

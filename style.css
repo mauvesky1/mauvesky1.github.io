@@ -325,19 +325,18 @@ ul.services-content {
 }
 
 ul.contact-content {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .contact-content li {
-  padding: 0 30px;
-  flex-basis: 33%;
+  padding: 0 1rem;
   text-align: center;
 }
 
 .contact-content li i {
-  font-size: 4rem;
+  font-size: 3rem;
   color: crimson;
   margin-bottom: 25px;
 }
@@ -345,10 +344,12 @@ ul.contact-content {
 .contact-content li p {
   margin: 0;
 }
+.contact-content li a {
+  text-decoration: underline;
+}
 
 @media (max-width: 1000px) {
   .contact-content li {
-    flex-basis: 100%;
     margin-bottom: 65px;
   }
   .contact-content li:last-child {

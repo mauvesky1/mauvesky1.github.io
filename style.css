@@ -268,13 +268,13 @@ ul.about-content {
   }
 }
 
-/* Service Area */
+/* Projects Area */
 
-#services {
+#projects {
   background: #ddd;
 }
 
-ul.services-content {
+ul.projects-content {
   display: flex;
   display: -webbkit-flex;
   display: -moz-flex;
@@ -284,36 +284,36 @@ ul.services-content {
   flex-wrap: wrap;
   justify-content: center;
 }
-.services-content li {
+.projects-content li {
   padding: 0 30px;
   flex-basis: 33%;
   text-align: center;
 }
 
-.services-content li i {
+.projects-content li i {
   font-size: 4rem;
   color: crimson;
   margin-bottom: 25px;
 }
 
-.services-content li h4 {
+.projects-content li h4 {
   font-size: 1.8rem;
   margin-bottom: 25px;
 }
 
-.services-content li p {
+.projects-content li p {
   margin: 0;
 }
 
 @media (max-width: 1000px) {
-  .services-content li {
+  .projects-content li {
     flex-basis: 100%;
     margin-bottom: 65px;
   }
-  .services-content li:last-child {
+  .projects-content li:last-child {
     margin-bottom: 0;
   }
-  .services-content li p {
+  .projects-content li p {
     padding: 0;
   }
 }

@@ -7,7 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
-/* A responsive website would use rems not px in font-sizes */
+
 body {
   font-family: "poppins", Courier, monospace;
 }
@@ -82,8 +82,6 @@ header nav li:last-child {
   }
 }
 
-/*Banner Area  */
-
 section {
   display: flex;
   display: -webbkit-flex;
@@ -96,12 +94,12 @@ section {
 }
 @media (max-width: 1000px) {
   section {
-    padding: 6rem 2rem;
+    padding: 3rem 3rem;
   }
 }
 @media (max-width: 600px) {
   section {
-    padding: 8rem 3rem;
+    padding: 3rem 1rem;
   }
 }
 section p {
@@ -111,6 +109,8 @@ section p {
   padding: 0 20px;
   line-height: 2;
 }
+
+/* Banner Area */
 
 .banner-area {
   position: relative;
@@ -181,7 +181,7 @@ section p {
   }
 }
 
-/* about area */
+/* About Area */
 
 ul.about-content {
   width: 100%;
@@ -257,17 +257,8 @@ ul.about-content {
 }
 
 @media (max-width: 480px) {
-  .about-area {
-    padding: 3rem 1rem;
-  }
-
   .about-content img {
-    max-width: 66%;
-  }
-  .about-right {
-    flex-basis: 0;
-    max-width: 30%;
-    margin-bottom: 0;
+    max-width: 50%;
   }
 }
 
@@ -328,13 +319,13 @@ ul.projects-content {
 }
 
 ul.contact-content {
-  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 .contact-content li {
-  padding: 0 1rem;
+  margin: 0 0.2rem;
   text-align: center;
 }
 
@@ -353,13 +344,14 @@ ul.contact-content {
 
 @media (max-width: 1000px) {
   .contact-content li {
-    margin-bottom: 65px;
+    margin: 1rem 0;
   }
   .contact-content li:last-child {
     margin-bottom: 0;
   }
-  .contact-content li p {
-    padding: 0;
+  .contact-content li p,
+  .contact-content li i {
+    padding-top: 0;
   }
 }
 

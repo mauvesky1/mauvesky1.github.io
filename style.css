@@ -202,16 +202,10 @@ ul.about-content {
   background-size: cover;
   background-position: center;
 }
-.about-left {
-  flex-basis: 33%;
-  margin-left: 7%;
-}
 
-.about-left img {
+.about-content img {
   border-radius: 75%;
   max-width: 22%;
-  min-height: 350px;
-  min-width: 333px;
 }
 .about-right {
   flex-basis: 60%;
@@ -243,7 +237,9 @@ ul.about-content {
 }
 
 @media (max-width: 1000px) {
-  .about-left,
+  .about-content img {
+    max-width: 27%;
+  }
   .about-right {
     flex-basis: 100%;
     max-width: 30%;
@@ -261,7 +257,9 @@ ul.about-content {
 }
 
 @media (max-width: 480px) {
-  .about-left,
+  .about-content img {
+    max-width: 66%;
+  }
   .about-right {
     flex-basis: 0;
     max-width: 30%;

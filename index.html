@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/975d0f40c3.js" crossorigin="anonymous"></script>
+
   <title>Portfolio Website</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
     <section class="about-area" id="about">
       <h3 class="section-title">About Me</h3>
       <ul class="about-content">
-       <img src="./Rob.jpeg">
+       <img src="./Rob.jpeg" alt="Selfie">
         <li class="about-right">
        <!--   <h2>About our Company</h2> -->
           <p>I am a new developer looking for my first paid role.  Enthusiastic about web development and AWS.</p>
@@ -39,22 +40,33 @@
     </section>
 
     <section class="projects-area" id="projects">
+      
       <h3 class="section-title">Projects</h3>
       <ul class="projects-content">
         <li>
-          <i class="fa fa-laptop"></i>
+          <img src="butterfly-1_1.png" alt="Butterfly">
+          <a target="_blank" href="https://blissful-johnson-5bfa16.netlify.app/#/login">
           <h4> Butterfly Hunt</h4>
-          <p>This is an augmented reality site where you can go on a butterfly hunt. Log in to save your progress as you collect all of the butterflies. Github page.</p>
+          </a>
+          <p>This is an augmented reality site where you can go on a butterfly hunt. Log in to save your progress as you collect all of the butterflies. 
+            </p>
+            <p>
+            It is not necessary to print off the markers to bring up a butterfly, you can point your camera at your desktop.
+            <a href="https://github.com/mauvesky1/ButterflySite">
+              Github page</a>.
+          </p>
         </li>
         <li>
-          <i class="fa fa-signal"></i>
-          <h4> NC-News</h4>
-          <p>This is a redd-t like news site. Github page.</p>
+          <i class="fab fa-aws"></i>
+          <a target="_blank" href="https://github.com/mauvesky1/ButterflySite">
+          <h4> Cafe Data Handler</h4>
+          </a>
+          <p>This repo contains code that extracts data from CSV files, transforms the data to conform to our database schema and uploads it to the database. This code is executed automatically on AWS when simulated cafe data is uploaded.</p>
         </li>
         <li>
           <i class="fa fa-picture-o"></i>
-          <h4>NC-News backend </h4>
-          <p> This is the backend to NC-news, supplying the articles and content. Github page.</p>
+          <h4>Portfolio Website </h4>
+          <p> The page you are currently viewing</p>
         </li>
       </ul>
     </section>
@@ -76,14 +88,14 @@
           <p> rob.draper@live.com </p>
         </li>
         <li>
-          <!--
-          <a href="http://linkedin.com/in/robertdraper2">
+          
+          <a target="_blank" href="http://linkedin.com/in/robertdraper2">
           <i class="fa fa-linkedin"></i>
           <p>Rob Draper</p> </a> 
         </li>
-      -->
+      
         <li>
-          <a href="https://github.com/mauvesky1">
+          <a target="_blank" href="https://github.com/mauvesky1">
             <i class="fa fa-github"></i>
             <p>Rob Draper</p>
           </a> 

@@ -92,6 +92,10 @@ section {
   align-items: center;
   padding: 110px 100px;
 }
+
+section a {
+  text-decoration: underline;
+}
 @media (max-width: 1000px) {
   section {
     padding: 3rem 3rem;
@@ -278,25 +282,31 @@ ul.projects-content {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.projects-content img {
+  width: 10rem;
+  margin-bottom: 1rem;
+}
 .projects-content li {
-  padding: 0 30px;
+  padding: 1rem 30px;
   flex-basis: 33%;
   text-align: center;
+  min-width: 350px;
 }
 
 .projects-content li i {
-  font-size: 4rem;
+  font-size: 5.5rem;
   color: crimson;
   margin-bottom: 25px;
 }
 
 .projects-content li h4 {
   font-size: 1.8rem;
-  margin-bottom: 25px;
+  margin-bottom: 1rem;
 }
 
 .projects-content li p {
-  margin: 0;
+  margin: 0 0 1.25rem 0;
 }
 
 @media (max-width: 1000px) {
@@ -308,6 +318,7 @@ ul.projects-content {
     margin-bottom: 0;
   }
   .projects-content li p {
+    margin: 0;
     padding: 0;
   }
 }
@@ -344,7 +355,16 @@ ul.contact-content {
 
 @media (max-width: 1000px) {
   .contact-content li {
-    margin: 1rem 0;
+    margin: 1.5rem;
+  }
+  .contact-content li p,
+  .contact-content li i {
+    padding-top: 0;
+  }
+}
+@media (max-width: 700px) {
+  .contact-content li {
+    margin: 1.5rem;
   }
   .contact-content li:last-child {
     margin-bottom: 0;

@@ -257,15 +257,17 @@ ul.about-content {
 }
 
 @media (max-width: 480px) {
+  .about-area {
+    padding: 3rem 1rem;
+  }
+
   .about-content img {
     max-width: 66%;
   }
   .about-right {
     flex-basis: 0;
     max-width: 30%;
-    margin: 2rem;
-    min-width: 250px;
-    min-height: 300px;
+    margin-bottom: 0;
   }
 }
 
